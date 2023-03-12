@@ -1,0 +1,98 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+#containter
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #fff5f5;
+}
+#container #topBarNavigation #logo
+{   
+    position: relative;
+    left: 0%;
+    top: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #a50000;
+}
+#navbar
+{
+    height:  50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff5f5;
+    display: grid;
+    place-items: center;
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul li
+{
+    font-size: 20px;
+    margin: 0 45px;
+}
+#navbar ul li a
+{
+    text-decoration: none;
+    color: #000; 
+}
+#navbar ul li a:hover
+{
+    color: #555555;
+}
+#container #topBarNavigation #navbar img
+{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #a50000;
+    border-radius: 50%;
+    filter: drop-shadow(-140px -140px 5px rgba(0,0,0,0.5));
+    transition: 0.5s;
+    margin: 0px;
+    padding: 0px;
+}
+#container #topBarNavigation #navbar img:hover
+{
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+}
+body
+{
+    background-image: url('/Images/backgroundimage.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+div
+{   
+    display: inline;
+}
+#topBarNavigation
+{
+    background-color: red;
+    border: 3px white solid;
+    border-radius: 15px;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 0%;
+}
+
